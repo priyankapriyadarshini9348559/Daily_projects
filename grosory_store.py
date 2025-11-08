@@ -24,3 +24,5 @@ while True:
             for item in cart:
                 name,price,qty=item
                 print(f"{name} - rs.{price} x {qty}")
+    elif choice=="3":
+        print("you want to remove item from Cart")
