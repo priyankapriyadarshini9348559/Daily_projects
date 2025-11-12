@@ -20,3 +20,11 @@ if user_book in library:
 
     else:
         print("the book is not availble")
+#Return a book:
+print(f"you have taken {user_take} books ")
+print("the rule is here that you cant kept it for 7 days if you kept more than this you will give fine")
+user_kept=int(input("how many days you kept:"))
+if user_kept <=7:
+    print("you are not giving any fine")
+else:
+    print("you are giving ₹100 fine")
